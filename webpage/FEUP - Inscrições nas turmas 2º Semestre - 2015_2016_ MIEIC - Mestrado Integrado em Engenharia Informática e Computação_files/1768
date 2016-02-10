@@ -1,0 +1,70 @@
+.clean_slider_container{
+    overflow: hidden;
+    margin:0 auto;
+    padding-right:10px;
+    position: relative;
+}
+.clean_slider_container ul{
+    list-style: none outside none;
+    margin: 0 0 4px;
+    padding: 0;
+}  
+.clean_slider_container li{
+    margin:0;
+    padding:0;
+    float:left;
+}
+.clean_slider_img_list img{
+    display: none;
+    z-index: 1;
+    position: absolute;
+}
+.clean_slider_mark_container{
+    float:right;
+    margin-right: 10px;
+}
+.clean_slider_mark_container li{
+    width:16px;;
+    height:16px;
+}    
+.clean_slider_mark_container a{
+    background: url(bg2.png) transparent top left no-repeat;
+    width:16px;;
+    height:16px;
+    display: block;
+}
+.clean_slider_mark_container a.active{
+    background: url(bg2.png) transparent bottom left no-repeat;
+    width:16px;;
+    height:16px;
+    display: block;
+}
+.clean_slider_image_shown{
+/** style to be applied to the final image **/
+/** css3 properties, you can remove or change this class **/
+    box-shadow:2px 2px 5px black;
+    border-radius: 10px 10px 10px 10px;
+}
+.caption{
+    background-color: black;
+    filter: alpha(opacity = 80);    
+    opacity: 0.8;
+    position: absolute;
+    height: 70px;
+    z-index: 99;
+    text-align: center;
+    display: none;
+    text-decoration: none;
+
+}
+.caption label{
+    display: block;
+    font-family: "Calibri", Arial, sans-serif;
+    font-size: 12px;
+    margin: 14px 10px 10px;
+    color:white;
+}
+/** **/
+div.caption{
+    border-radius: 10px;
+}

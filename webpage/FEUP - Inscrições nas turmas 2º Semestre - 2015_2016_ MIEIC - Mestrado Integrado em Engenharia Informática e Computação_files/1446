@@ -1,0 +1,92 @@
+/* S4G-SI-Base */
+
+a:link {
+background-color: transparent;color: #8C2D19;text-decoration: underline;
+}
+a:visited {
+background-color: transparent;color: #525252;text-decoration: underline;
+}
+a:active {
+background-color: transparent;color: Red;text-decoration: underline;
+}
+a:hover {
+background-color: transparent;color: Red;text-decoration: underline;
+}
+div#ferramentas {
+display: none;
+}
+h1 {
+background-color: transparent;color: #8C2D19;font-size: 2.5em;font-weight: normal;margin-top: 0px;text-align: left;
+}
+h1#seccao {
+display: none;
+}
+h2 {
+background-color: transparent;border-bottom: 1px solid #CACACA;color: #8C2D19;font-size: 2em;font-weight: normal;text-align: left;
+}
+h3 {
+background-color: transparent;border-bottom: 1px solid #CACACA;color: #8C2D19;font-size: 1.5em;font-weight: normal;text-align: left;
+}
+h4 {
+background-color: transparent;color: Black;font-size: 1em;text-align: center;
+}
+h5 {
+font-size: 0.85em;font-weight: normal;text-align: center;
+}
+span#rodape-acessibilidade {
+display: none;
+}
+span#rodape-az {
+display: none;
+}
+span#rodape-copyright {
+display: none;
+}
+span#rodape-livro-visitas {
+display: none;
+}
+span#rodape-termos {
+display: none;
+}
+table {
+font-size: 1em;
+}
+table.calendtable {
+border-collapse: separate;
+}
+table.calendtable td {
+text-align: left;
+}
+table.calendtable td.calendevent {
+background-color: #ffcc39;color: Black;padding-left: 4px;padding-right: 4px;text-align: center;
+}
+table.calendtable td.calendfds {
+background-color: #CCCCCC;color: Black;padding-left: 4px;padding-right: 4px;text-align: center;
+}
+table.calendtable td.calendnorm {
+background-color: #F2F2F2;color: Black;padding-left: 4px;padding-right: 4px;text-align: center;
+}
+table.calendtable td.calendsel {
+background-color: #F2F2F2;border-color: red;border-style: solid;border-width: 2px;color: Black;padding-left: 4px;padding-right: 4px;text-align: center;
+}
+td.l {
+background-color:;text-align: center;
+}
+td.n {
+background-color:;text-align: right;
+}
+td.t {
+background-color:;text-align: left;
+}
+th {
+background-color: #CCCCCC;color: Black;padding-left: 4px;padding-right: 4px;
+}
+tr.d, td.d {
+background-color: #f5f5f5;
+}
+tr.i, td.i {
+background-color: #f5f5f5;
+}
+tr.p, td.p {
+background-color: #e8e8e8;
+}

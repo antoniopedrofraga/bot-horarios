@@ -1,0 +1,97 @@
+/* S4G-Base-Print */
+
+a:link, a:visited, a:active, a:hover {
+color: #000;
+text-decoration: none;
+font-weight: normal;
+}
+body {
+font-size: 8pt;
+}
+div.aviso {
+background-color: #fff;
+color: #000;
+border: 2px solid #000;
+}
+div.caixa {
+border: 0;
+margin: 0;
+padding: 0;
+}
+div.caixa img {
+display: none;
+}
+div#conteudo {
+margin: 0;
+background-image: none;
+padding: 0;
+overflow: visible;
+
+}
+div#conteudo + a {
+display: none;
+}
+div#conteudo+a {
+display: none;
+}
+div.form-botoes {
+display: none;
+}
+div.formulario-botoes {
+display: none;
+}
+div.informa {
+background-color: #fff;
+color: #000;
+border: 2px dotted #000;
+}
+.ecra {
+display: none;
+}
+fieldset {
+border: 1px solid #000;
+}
+hr {
+color: #000;
+background-color: #000;
+
+}
+h1, h2, h3, h4 {
+color: #000;
+}
+.imprimir {
+display: block;
+}
+legend {
+color: #000;
+}
+table.dados, table.formulario {
+border-width: 0;
+}
+table.dados td {
+border: 1px solid #000;
+background-image: none;
+background-color: transparent;
+}
+table.formulario td {
+border-width: 0px
+}
+tfoot {
+display: table-footer-group;
+}
+th {
+background-color: #000;
+color: #fff;
+border: 2px solid #000;
+}
+th.a, td.a, tr.a {
+display: none;
+}
+thead {
+display: table-header-group;
+}
+tr.i, tr.p, tr.d, td.i, td.p, td.d {
+background-color: transparent;
+background-image: none;
+border: 1px solid #000;
+}

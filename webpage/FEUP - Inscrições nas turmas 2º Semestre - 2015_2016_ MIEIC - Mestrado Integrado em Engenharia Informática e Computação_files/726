@@ -1,0 +1,485 @@
+/* *FEUP2012 */
+
+a.autenticacao-nome:link, a.autenticacao-nome:visited,span.autenticacao-nome {
+color: #fff;
+text-decoration: none;
+font-size: .9em;
+}
+a.autenticacao-off:link, a.autenticacao-off:visited {
+color: #fff;
+text-decoration: none;
+font-size: .9em;
+}
+a.validacao-invalidado:link, a.validacao-invalidado:visited {
+color: #fff;
+font-size: .8em;
+}
+a.validacao-validado:link, a.validacao-validado:visited {
+color: #fff;
+font-size: .8em;
+}
+div#menu-navegacao-conteudo ul li a:link, div#menu-navegacao-conteudo ul li a:visited {
+color: #8c2d19;
+}
+span#rodape-copyright a:link, span#rodape-copyright a:visited {
+color: #fff;
+}
+a.autenticacao-nome:active, a.autenticacao-nome:hover {
+color: #f00;
+text-decoration: none;
+}
+a.autenticacao-off:active, a.autenticacao-off:hover {
+color: #f00;
+text-decoration: underline;
+}
+a.validacao-invalidado:active, a.validacao-invalidado:hover {
+color: #f00;
+font-size: .8em;
+}
+a.validacao-validado:active, a.validacao-validado:hover {
+color: #f00;
+font-size: .8em;
+}
+div#menu-navegacao-conteudo ul li a:active, div#menu-navegacao-conteudo ul li a:hover {
+color: #f00;
+}
+span#rodape-copyright a:active, span#rodape-copyright a:hover {
+color: #f00;
+}
+a.autenticacao-nome, span.autenticacao-nome {
+color: #fff;
+}
+a.logincabecalho:link, a.logincabecalho:visited {
+font-size: 10px;
+color: #fff;
+}
+body {
+margin: 0;
+padding: 0;
+font-family: "Trebuchet MS", Arial, sans-serif;
+font-size: .9em;
+}
+div#barralocalizacao {
+border-top: 1px solid #8c2d19;
+border-bottom: 1px solid #8c2d19;
+border-right: 0px solid #8c2d19;
+border-left: 0px solid #8c2d19;
+background-color: #fff;
+color: #8c2d19;
+margin: 0;
+padding: .25em .5em;
+font-size: .7em;
+}
+div#barralocalizacao a:link, div#barralocalizacao a:visited {
+color: #8c2d19;
+text-decoration: none;
+font-weight: normal;
+background-color: transparent;
+}
+div#cabecalho {
+margin: 0;
+background-image: url(../imagens/FundoTopo2012);
+border: 0;
+}
+div#cabecalho-conteudo-2 {
+top: 0;
+right: 0;
+}
+div#caixa-atalhos {
+margin: 0;
+}
+div#caixa-atalhos-cabecalho {
+background-color: #f0f0f0;
+color: #8c2d19;
+text-transform: uppercase;
+font-size: 10px;
+border: 0;
+}
+div#caixa-atalhos-conteudo {
+margin: 0;
+border: 0;
+font-size: .7em;
+}
+div#caixa-atalhos-conteudo ul {
+margin-left: 1.5em;
+}
+div.caixa-informativa {
+border-radius: 5px;
+box-shadow: 2px 2px 2px #ccc;
+}
+div.caixa-legenda-cabecalho {
+background-color: #f0f0f0;
+color: #8c2d19;
+text-transform: uppercase;
+font-size: 10px;
+border: 0;
+}
+div.caixa-legenda-conteudo {
+border: 0;
+margin: 0;
+font-size: .7em;
+padding: 0;
+}
+div.caixa-opcoes {
+margin: 0;
+}
+div.caixa-opcoes-cabecalho {
+background-color: #f0f0f0;
+color: #8c2d19;
+text-transform: uppercase;
+font-size: 10px;
+border: 0;
+}
+div.caixa-opcoes-conteudo {
+border: 0;
+margin: 0;
+font-size: .7em;
+padding: 0;
+}
+div.caixa-opcoes-conteudo ul {
+margin-left: 10px;
+list-style-type: disc;
+list-style-image: url("../imagens/Bullet2012");
+/*margin-top: 1em;*/
+/*margin-bottom: 1em;*/
+
+/*NEW*/
+
+border-bottom: 1px solid #f0f0f0;
+padding: 1em .5em 1em 2em;
+margin: 0;
+}
+div.caixa-opcoes-conteudo ul li {
+list-style-type: disc;
+list-style-image: url(../imagens/Bullet2012);
+}
+div.caixa-opcoes-conteudo ul.mais, div.caixa-opcoes-conteudo ul.menos {
+padding: 1em .5em 1em 2.5em;
+}
+div.caixa-opcoes-conteudo ul.mais li {
+list-style-image: url(../imagens/ListaMais);
+}
+div.caixa-opcoes-conteudo ul.menos li {
+list-style-image: url(../imagens/ListaMenos);
+}
+div.caixa-opcoes-conteudo ul.menos li ul.sub {
+border-bottom-width: 0;
+padding: .5em 0 0 .5em;
+}
+div.caixa-opcoes-conteudo ul.menos li ul.sub li {
+list-style-image: url(../imagens/Bullet2012);
+}
+div#caixa-validacao {
+margin: 0;
+}
+div#caixa-validacao-cabecalho, div#caixa-campus-cabecalho {
+text-align: center;
+background-color: #f0f0f0;
+font-size: 10px;
+border: 0;
+padding: .2em;
+}
+div#caixa-validacao-conteudo {
+font-size: .8em;
+}
+div.caption {
+border-radius: 10px;
+}
+div#colunaprincipal, div#colunaextra {
+margin: 0;
+width: 120px;
+}
+div#conteudo {
+margin: 0;
+padding: .5em 1em;
+border-bottom: 1px solid #CACACA;
+border-left: 1px solid #cacaca;
+border-right: 1px solid #cacaca;
+min-height: 800px;
+font-size: .8em;
+}
+div#conteudo-extra {
+margin: 0 0 0 120px;
+border-left: 1px solid #cacaca;
+min-height: 800px;
+padding: .5em 1em;
+font-size: .8em;
+}
+div.curso-informacoes h3 {
+border-bottom-width: 0;
+font-weight: bold;
+}
+div.editar-apresentacao-editar {
+margin-top: 1.8em;
+float: none;
+}
+div.estudante-detalhe-cabecalho h2 {
+border-bottom-width: 0;
+}
+div#ferramentas {
+display: none;
+}
+div.informacao-pessoal-adicional {
+width: 40%;
+}
+div.informacao-pessoal-apresentacao {
+border-radius: 5px;
+box-shadow: 5px 5px 5px #ccc;
+overflow-x: auto;
+}
+div.informacao-pessoal-apresentacao h3 {
+border-bottom: 0;
+font-size: 1.5em;
+}
+div.informacao-pessoal-apresentacao.editar-apresentacao {
+margin: 2em 0 2em 1em;
+}
+div#involucro {
+background-color: #f0f0f0;
+}
+div.menu-contexto-principal {
+position: absolute;
+right: 0;
+top: 0;
+}
+div#menuesquerdo {
+background-color: #fff;
+}
+div#menu-navegacao {
+margin: 0;
+}
+div#menu-navegacao-cabecalho {
+display: none;
+}
+div#menu-navegacao-conteudo {
+margin: 0;
+border: 0;
+font-size: .8em;
+}
+div#menu-navegacao-conteudo ul li {
+padding: .1em 1em .1em 1.5em;
+}
+div.menu-principal {
+position: absolute;
+top: 0;
+right: 0;
+}
+div.popup table {
+border-spacing: 0;
+}
+div.popup+table {
+border-spacing: 0;
+}
+div.portlet-noticias-cabecalho {
+background-color: #f0f0f0;
+color: #8c2d19;
+text-transform: uppercase;
+font-size: 10px;
+border: 0;
+font-weight: bold;
+margin: 0;
+padding: 5px;
+}
+div.portlet-noticias-conteudo {
+border: 0 none;
+font-size: 0.7em;
+margin: 0;
+padding: 0.5em;
+vertical-align: top;
+background-color: #fffce0;
+}
+div.portlet-noticias-conteudo ul {
+margin: 0 0 0 10px;
+list-style-image: url("../imagens/Bullet2012");
+list-style-type: disc;
+padding: 0 0 0 .6em;
+}
+div.portlet-noticias-conteudo ul li {
+list-style-image: url("../imagens/Bullet2012");
+list-style-type: disc;
+margin-bottom: .6em;
+}
+div#rodape {
+background-color: #8c2d19;
+color: #fff;
+font-size: .8em;
+border: 0;
+}
+div#rodape br {
+display: none;
+}
+h1 {
+font-size: 2em;
+}
+h1, h2, h3, h4 {
+color: #8c2d19;
+font-weight: normal;
+}
+h2 {
+font-size: 1.5em;
+}
+h3 {
+font-size: 1.25em;
+}
+h4 {
+font-size: 1em;
+}
+img.destaque {
+height: 80px;
+}
+img.imprimir {
+padding-left: 6px;
+}
+img#logotipo {
+width: 200px;
+height:  79px;
+padding: 0;
+}
+img.tlogotipoinst {
+width: 200px;
+}
+li#caixa-atalhos-conteudo-adicionar {
+list-style-image: url(../imagens/Atalho);
+}
+li#caixa-atalhos-conteudo-portal {
+list-style-image: url(../imagens/AtalhosPortal);
+}
+#menuesquerdo li.m1 a, #menuesquerdo li.m2 a, #menuesquerdo li.m3 a, #menuesquerdo li.m4 a {
+text-align: left;
+color: #8c2d19;
+font-size: 11px;
+padding-left: 15px;
+}
+#menuesquerdo li.m1-selected a, #menuesquerdo li.m2-selected a, #menuesquerdo li.m3-selected a, #menuesquerdo li.m4-selected a {
+text-align: left;
+padding-left: 15px;
+}
+#menuesquerdo li.m5 a, #menuesquerdo li.m6 a, #menuesquerdo li.m7 a, #menuesquerdo li.m8 a {
+text-align:left;
+color: #8c2d19;
+font-size: 11px;
+padding-left: 15px;
+}
+#menuesquerdo li.m5-selected a, #menuesquerdo li.m6-selected a, #menuesquerdo li.m7-selected a, #menuesquerdo li.m8-selected a {
+text-align: left;
+padding-left: 15px;
+}
+#menuesquerdo li.m9 a, #menuesquerdo li.m10 a, #menuesquerdo li.m11 a, #menuesquerdo li.m12 a {
+text-align: left;
+color: #8c2d19;
+font-size: 11px;
+padding-left: 15px;
+}
+#menuesquerdo li.m9-selected a, #menuesquerdo li.m10-selected a, #menuesquerdo li.m11-selected a, #menuesquerdo li.m12-selected a {
+text-align: left;
+padding-left: 15px;
+}
+p.textoc {
+text-align: center;
+}
+span#rodape-termos, span#rodape-acessibilidade, span#rodape-az, span#rodape-livro-visitas {
+display: none;
+}
+table.barratemporal {
+border-collapse: collapse;
+}
+table.calendtable {
+border-collapse: separate;
+}
+table.calendtable td {
+text-align: left;
+}
+table.calendtable td.calendevent {
+background-color: #ffcc39;color: Black;padding-left: 4px;padding-right: 4px;text-align: center;
+}
+table.calendtable td.calendfds {
+background-color: #CCCCCC;color: Black;padding-left: 4px;padding-right: 4px;text-align: center;
+}
+table.calendtable td.calendnorm {
+background-color: #F2F2F2;color: Black;padding-left: 4px;padding-right: 4px;text-align: center;
+}
+table.calendtable td.calendsel {
+background-color: #F2F2F2;
+border: 2px solid #f00;
+color: Black;
+padding-left: 4px;
+padding-right: 4px;
+text-align: center;
+}
+table.centrar {
+margin: 0 auto;
+}
+table.cvisita {
+margin: 0 auto;
+}
+table.oferta-cursos {
+width: 100%;
+}
+td.a.futuro a img {
+opacity: .2;
+}
+td.amc-apagado, td.pmc-apagado {
+text-decoration: line-through;
+color: #ccc;
+}
+td.calendeventsel {
+border: 2px solid #f00;
+background-color: #ffcc39;
+color: Black;
+padding-left: 4px;
+padding-right: 4px;
+text-align: center;
+}
+td.calendfer {
+background-color: #CCCCCC;color: Black;padding-left: 4px;padding-right: 4px;text-align: center;
+}
+td.cvisita {
+background-color: #F9F4F3;
+color: black;
+padding-left: 12px;
+padding-right: 12px;
+padding-top: 6px;
+padding-bottom: 6px;
+text-align: center;
+}
+td.falta-doc {
+color: #f29400;
+
+}
+td.justifok {
+color: #009036;
+}
+td.justifpende {
+color: #f29400;
+}
+td.loginesquerdo, td.logindireito {
+background-color: transparent;
+font-size: 10px;
+color: #fff;
+}
+td.marca.am.futuro, td.marca.pm.futuro {
+background-color: #f5f5f5;
+}
+td.negativo {
+color: #AB1517;
+}
+td.pendente {
+color: #f29400;
+}
+td.saldo-d.negativo.futuro {
+color: #bbb;
+}
+td.topod {
+vertical-align: top;
+}
+th.calendsem {
+color: #fff;
+background-color: #8c2d19;
+}
+th.coluna-o, span.coluna-o {
+background-color: #ccc;
+color: #000;
+}
+.yui-skin-sam .yui-calcontainer .yui-cal-nav .yui-cal-nav-btn.yui-default button {
+color: #000  !important;
+}

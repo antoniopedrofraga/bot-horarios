@@ -1,0 +1,101 @@
+/* IT */
+
+div.aviso {
+padding: .5em 1em .5em 1em;
+margin: 1em 0 1em 0;
+border: 1px solid #fbaf5d;
+background-color: #fff799;
+color: #a3620a;
+font-weight: bold;
+vertical-align: middle;
+font-size: 1.2em;
+}
+div.esconder {
+display:none;
+}
+div.informa {
+background-color: #b3d4e6;
+border: 1px solid #83b9d6;
+color: #2b6381;
+font-size: 1.2em;
+font-weight: bold;
+margin: 1em 0;
+padding: 0.5em 1em;
+vertical-align: middle;
+}
+div.opcoes-anteriores {
+font-weight:bold;
+cursor:pointer;
+}
+p.quebra-pagina {
+page-break-before: always;
+}
+span.estudante-numero {
+font-size:.8em;
+}
+span.nota {
+font-size: .8em;
+}
+table.horario-entrada {
+width:100%;
+}
+table.horario-tabela {
+width:100%;
+border-collapse: separate;
+}
+td.completa, tr.completa {
+background-color: #f29a79;
+}
+td.estudante {
+text-align:center;
+padding:.25em .25em 1em .25em;
+}
+td.horario-aula {
+border: 1px solid green;
+background-color:#8fbc8f;
+vertical-align:middle;
+text-align:center;
+}
+td.horario-aula-recente {
+border: 1px solid yellow;
+background-color:yellow;
+vertical-align:middle;
+text-align:center;
+}
+td.horario-aula-sobreposta {
+border: 1px solid red;
+background-color:#ff6347;
+vertical-align:middle;
+text-align:center;
+}
+td.horario-celula {
+border:1px dotted #AAAAAA; 
+background-color: #F5F5F5;
+
+}
+td.horario-docente {
+text-align:right;
+cursor:help;
+}
+td.horario-sala {
+text-align:left;
+}
+td.horario-turma {
+text-align:center;
+font-size:.8em;
+}
+td.horario-uc {
+text-align:center;
+cursor:help;
+font-weight:bold;
+}
+td.incompleta, tr.incompleta {
+background-color: #d0df99;
+}
+td.quasecompleta, tr.quasecompleta {
+background-color: #fff59b;
+}
+tr.cedt-editar-tmp > td {
+border: 4px solid #999;
+border-width: 4px 0 4px 0;
+}

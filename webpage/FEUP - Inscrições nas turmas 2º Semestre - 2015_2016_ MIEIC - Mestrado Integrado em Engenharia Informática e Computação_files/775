@@ -1,0 +1,83 @@
+/* S4G-DivDefault-Print */
+
+div#barralocalizacao {
+display: none;
+}
+div#cabecalho {
+display: none;
+}
+div#colunaextra {
+display: none;
+}
+div#colunaprincipal {
+display: none;
+}
+div#conteudo {
+margin: 0;
+padding: 0;
+overflow:visible;
+}
+div#conteudo-extra {
+margin: 0;
+padding: 0;
+overflow:visible;
+}
+div#debug {
+display: none;
+}
+div#ferramentas {
+display: none;
+}
+div.form-botoes {
+display: none;
+}
+div#menu-navegacao-extra-1 {
+display: none;
+}
+div#menu-navegacao-extra-2 {
+display: none;
+}
+div#rodape {
+margin-top: 2em;
+border-width: 0;
+border-top: 2px solid #000;
+background-color: white;
+background-image: none;
+padding: 4px 0;
+}
+div.saltar {
+display: none;
+}
+.ecra {
+display: none;
+}
+.imprimir {
+display: block;
+}
+span#rodape-acessibilidade {
+display: none;
+}
+span#rodape-actualizacao {
+font-size: .7em;
+padding-right: 1em;
+}
+span#rodape-az {
+display: none;
+}
+span#rodape-copyright a {
+text-decoration: none;
+color: #000;
+font-weight: bold;
+}
+span#rodape-geracao {
+font-size: .7em;
+}
+span#rodape-livro-visitas {
+display: none;
+}
+span#rodape-termos {
+display: none;
+}
+span.voltar-topo-dinamico {
+display: none;
+}

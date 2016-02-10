@@ -1,0 +1,8 @@
+/* S4G-tab */
+
+table.dados tbody tr:nth-child(even) td, tr.p, td.p {
+background-color: #e8e8e8;
+}
+table.dados tbody tr:nth-child(odd) td, tr.i, td.i {
+background-color: #f5f5f5;
+}

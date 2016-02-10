@@ -1,0 +1,81 @@
+/* STORK */
+
+div#caixa-validacao-conteudo a.stork:visited, div#caixa-validacao-conteudo a.stork:active, div#caixa-validacao-conteudo a.stork:link {
+background: url(../imagens/autenticacaoSTORK-hover) no-repeat scroll 0 0 transparent;
+display: block;
+width: 84px;
+height: 40px;
+padding: 0;
+margin: 0 auto 0 auto;
+}
+div#conteudo a.stork:visited, div#conteudo a.stork:active, div#conteudo a.stork:link {
+background: url(../imagens/autenticacaoSTORK_central-hover) no-repeat scroll 0 0 transparent;
+width: 303px;
+height: 80px;
+padding: 0;
+margin: 0 auto 0 auto;
+display: block;
+}
+div#conteudo-extra a.stork:visited, div#conteudo-extra a.stork:active, div#conteudo-extra a.stork:link {
+background: url(../imagens/autenticacaoSTORK_central-hover) no-repeat scroll 0 0 transparent;
+width: 303px;
+height: 80px;
+padding: 0;
+margin: 0 auto 0 auto;
+display: block;
+}
+div#conteudo-principal a.stork:visited, div#conteudo-principal a.stork:active, div#conteudo-principal a.stork:link {
+background: url(../imagens/autenticacaoSTORK_central-hover) no-repeat scroll 0 0 transparent;
+width: 303px;
+height: 80px;
+padding: 0;
+margin: 0 auto 0 auto;
+display: block;
+}
+div#conteudo-total a.stork:visited, div#conteudo-total a.stork:active, div#conteudo-total a.stork:link {
+background: url(../imagens/autenticacaoSTORK_central-hover) no-repeat scroll 0 0 transparent;
+width: 303px;
+height: 80px;
+padding: 0;
+margin: 0 auto 0 auto;
+display: block;
+}
+div#caixa-validacao-conteudo a.stork:hover {
+background: url(../imagens/autenticacaoSTORK-hover) no-repeat scroll 0 -44px transparent;
+}
+div#conteudo a.stork:hover, div#conteudo-extra a.stork:hover, div#conteudo-principal a.stork:hover, div#conteudo-total a.stork:hover {
+background: url(../imagens/autenticacaoSTORK_central-hover) no-repeat scroll 0 -84px transparent;
+width: 303px;
+height: 80px;
+padding: 0;
+margin: 0 auto 0 auto;
+display: block;
+}
+div.stork {
+text-align: center;
+}
+div.stork-escolha {
+height: 30em;
+display: block;
+}
+div.stork-escolha-lista {
+float: right;
+width: 70%;
+}
+div.stork-escolha-lista img {
+border: 1px solid #000;
+margin: .3em .5em 0 .2em;
+width: 24px;
+height: 16px;
+}
+div.stork-escolha-lista input {
+margin-left: 2em;
+}
+div.stork-escolha-logotipo {
+width: 30%;
+float: left;
+text-align: right;
+}
+img.stork_central {
+float:left;
+}
