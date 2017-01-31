@@ -37,6 +37,6 @@
 			successNumber += checkeic(eicDomId[i], classId[i]);
 
 		if (successNumber < eicDomId.length)
-			setTimeout( function () { location.reload(); }, 1000);
+			setTimeout( function () { location.reload(); }, 250);
 		else
 			alert('O script cumpriu!');
