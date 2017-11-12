@@ -15,7 +15,7 @@ Thus, using **JavaScript** my browser was refreshing every **500 ms** or so, and
 
 ## How does it work?
 
-I used a JavaScript injector, [Custom JavaScript for websites](https://chrome.google.com/webstore/detail/custom-javascript-for-web/poakhlngfciodnhlhhgnaaelnpjljija?hl=en), which is a **Google Chrome** extension. I'm sure there are plenty of technologies that you can use. With this one I could just copy and paste my code to a textbox.
+I used a JavaScript injector, [Custom JavaScript for websites](https://chrome.google.com/webstore/detail/custom-javascript-for-web/poakhlngfciodnhlhhgnaaelnpjljija?hl=en), which is a **Google Chrome** extension. I'm sure there are plenty of technologies that you can use. With this one I could just copy and paste my code into a textbox.
 
 ```javascript
 var eicDomId = ['368714','368716']; //ids do selector dessa cadeira
