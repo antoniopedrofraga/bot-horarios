@@ -15,7 +15,7 @@ Thus, using **JavaScript** my browser was refreshing every **500 ms** or so, and
 
 ## How does it work?
 
-I used a JavaScript injector, [Custom JavaScript for websites](https://chrome.google.com/webstore/detail/custom-javascript-for-web/poakhlngfciodnhlhhgnaaelnpjljija?hl=en), which is a **Google Chrome** extension. I'm sure there are plenty of technologies that you can use. 
+I used a JavaScript injector, [Custom JavaScript for websites](https://chrome.google.com/webstore/detail/custom-javascript-for-web/poakhlngfciodnhlhhgnaaelnpjljija?hl=en), which is a **Google Chrome** extension. I'm sure there are plenty of technologies that you can use. With this one I could just copy and paste my code to a textbox.
 
 ```javascript
 var eicDomId = ['368714','368716']; //ids do selector dessa cadeira
@@ -23,7 +23,8 @@ var classId = ['3MIEIC02','3MIEIC02']; //turma pretendida em cada index
 ```
 
 The first array indicates the module identifier for each module, which can be found in the module URL:
+![alt text](./README/moduleid.png "Logo Title Text 1")
 
-The second array indicates the class identifier that can be found in the class URL as well:
+The second array indicates the class identifier that every FEUP student is familiar with.
 
 And the whole script is a bunch of JavaScript instructions parsing information from **HTML** tags. I know, that's not very good. The important thing is: it worked.
