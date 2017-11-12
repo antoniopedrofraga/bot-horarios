@@ -22,7 +22,7 @@ var eicDomId = ['368714','368716']; //ids do selector dessa cadeira
 var classId = ['3MIEIC02','3MIEIC02']; //turma pretendida em cada index
 ```
 
-The first array indicates the module identifier for each module, which can be found in the module URL:
+The first array indicates the module identifier, which can be found in the module URL:
 ![alt text](./README/moduleid.png "Module ID")
 
 The second array indicates the class identifier that every FEUP student is familiar with.
