@@ -27,4 +27,4 @@ The first array indicates the module identifier, which can be found in the modul
 
 The second array indicates the class identifier that every FEUP student is familiar with.
 
-And the whole script is a bunch of JavaScript instructions parsing information from **HTML** tags. I know, that's not very good. The important thing is: it worked.
+And the whole script is a bunch of JavaScript instructions parsing information from **HTML** tags. I know, that's not very good. Don't expect to find a clean code, or the best solution, just one of the best solutions for me at the time. The important thing is: it worked. 
