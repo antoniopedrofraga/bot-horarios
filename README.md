@@ -6,7 +6,7 @@ As a software engineer, it is commonly possible to write scripts in order to aut
 
 This script was used by me, as an informatic student at FEUP, when manual actions were required to select my schedule. FEUP schedules are built by a set of different modules that you must have in every semester. For each module, is given a set of different classes that one can attend. These classes may differ in **time** and **teacher**. 
 
-My point is, you can actually automate almost any computer task, sometimes it's worth it, sometimes it's not. In this case, it was clearly advantageous. I didn't want to spend 2 hours in front of my computer hitting refresh and check if there's a vacancy in some class that I wanted. My computer can do it for me.
+My point is, you can actually automate almost any computer task, sometimes it's worth it, sometimes it's not. In this case, it was clearly advantageous. I didn't want to spend 2 hours in front of my computer hitting refresh and checking if there's a vacancy in some class that I wanted. My computer can do it for me.
 
 Thus, using **JavaScript**, my browser was refreshing every **500 ms** or so, and checking if there was an available position in the class. Well, I guess you can adapt this value depending on your internet connection speed. The important thing was: I was not doing it manually. I mean, is there any possibility of having someone faster than my computer? Yes, there is. But the chances of that were quite lower with my script. So... I managed to get all my schedule first options since my 3rd year. Actually you have 2 possibilities here:
 
