@@ -10,7 +10,7 @@ My point is, you can actually automate almost any computer task, sometimes it's 
 
 Thus, using **JavaScript**, my browser was refreshing every **500 ms** or so, and checking if there was an available position in the class. Well, I guess you can adapt this value depending on your internet connection speed. The important thing was: I was not doing it manually. I mean, is there any possibility of having someone faster than my computer? Yes, there is. But the chances of that were quite lower with my script. So... I managed to get all my schedule first options since my 3rd year. Actually you have 2 possibilities here:
 
-* You are in the top 20/30 students **GPA** ranking that chose one class for a given module (and you can get the best options in the 1st round).
+* You are in the top students **GPA** ranking (and you can get the best options in the 1st round).
 * Or you automate the second round, that will do the job as well.
 
 ## How does it work?
